@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup page</title>
+    <style>
+        h1 {
+            background-color: lightcyan fxdbn
+        }
+        body {
+            background-image: url(hospital\ bed.jpg);
+            background-size: cover;
+
+        }
+        h1 {
+            font-family: 'Courier New', Courier, monospace;
+        }img {
+            border-radius: 99px;
+            background-color: aqua;
+        }
+
+    </style>
+    <p><h1 style="text-align: center;">MUKHTAR PRIMARY HEALTH CARE</h1></p>
+</head>
+<body style="text-align: center;">
+    <dl>
+        <dd><img src="stethoscope.jpg" width="150" height="150"></dd>
+    </dl>
+    <form action="logi.html" method="get">
+        <label for="fname">FIRST NAME:</label>
+        <input type="text" name="fname" required><br><br>
+        <label for="lname">LAST NAME:</label>
+        <input type="text" name="lname" required><br><br>
+        <label for="email">EMAIL:</label>
+        <input type="email" name="email" id="email" required><br>
+        <label for="gender">GENDER:</label>
+        <input type="radio" name="gender" value="male" required> MALE 
+        <input type="radio" name="gender" value="female" required> FEMALE <br>
+        <label for="tel">PHONE NUMBER:</label>
+        <input type="tel" name="phone" required><br><br>
+        <label for="password">PASSWORD:</label>
+        <input type="password" name="password" required><br><br>
+        <label for="password">CONFIRM PASSWORD:</label>
+        <input type="password" name="password" required><br><br>
+        <label for="profession">PROFESSION:</label>
+        <select name="profession" required><br>
+            <option value="">select profession</option><br>
+            <option value="doctor">DOCTOR</option>
+            <option value="lab scientist">LAB SCIENTIST</option>
+            <option value="nurse">NURSE</option>
+            <option value="neurologist">NEUROLOGIST</option>
+            <option value="physioterapist">PHYSIOTERAPIST</option>
+            <option value="radiographer">RADIOGRAPHER</option>
+            <option value="oncologist">ONCOLOGIST</option>
+            </select>
+            <br><br>
+            <button type="submit">sign up</button>
+    </form>
+    <p>Already have an account? <a href="login.html">Log in</a></P>
+    
+
+    
+    
+</body>
+</html>
